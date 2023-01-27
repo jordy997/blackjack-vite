@@ -1,0 +1,45 @@
+html,
+body {
+  margin: 0px;
+  color: white;
+  background-color: lightgreen;
+  overflow-x: hidden;
+}
+
+.title {
+  text-align: center;
+  background-color: green;
+  color: white;
+  font-size: 30px;
+}
+
+.carta {
+  width: 150px;
+  position: relative;
+  left: 100px;
+  margin-left: -75px;
+}
+
+#computadora-cartas,
+#jugador-cartas {
+  height: 250px;
+}
+
+#winnerMessage {
+    margin-block: 15px;
+    color: black;
+}
+
+@media (max-width: 720px) {
+    .carta {
+        width: 75px;
+        position: relative;
+        left: 50px;
+        margin-left: -37.5px;
+    }
+    
+    #computadora-cartas,
+    #jugador-cartas {
+        height: 125px;
+    }
+}
